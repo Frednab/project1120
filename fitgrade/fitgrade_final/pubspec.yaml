@@ -1,0 +1,27 @@
+name: fitgrade
+description: FitGrade - Your AI Style Coach
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  google_fonts: ^4.0.4
+  smooth_page_indicator: ^1.1.0
+  image_picker: ^0.8.9
+  supabase_flutter: ^1.10.25
+  google_sign_in: ^6.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
